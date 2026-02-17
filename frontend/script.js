@@ -68,7 +68,8 @@ sendBtn.addEventListener("click", async () => {
 
   try {
 
-    const response = await fetch("http://127.0.0.1:8002/analyze", {
+    const response = await fetch("https://Tan-veer-2006-AI-IMAGE-CAPTIONER.hf.space/caption", {
+
       method: "POST",
       body: formData
     });
